@@ -7,7 +7,7 @@
 using namespace std;
 int main(int nNumberofArgs, char* pszArgs[])
 {
-cout << “This program is designed to crash!”
+cout << "This program is designed to crash!"
 << endl;
 int nSum;
 int nNums;
@@ -19,14 +19,14 @@ while(true)
 {
 // enter another number to add 
 int nValue;
-cout << “Enter another number:”;
+cout << "Enter another number:";
 cin >> nValue;
 cout << endl;
 // if the input number is negative...
 if (nValue < 0)
 {
 // ...then output the average
-cout << “Average is: “
+cout << "Average is: "
 << nSum/nNums
 << endl;
 break;
@@ -37,6 +37,6 @@ nSum += nValue;
 }
 // wait until user is ready before terminating program
 // to allow the user to see the program results
-system(“PAUSE”);
+system("PAUSE");
 return 0;
 }
